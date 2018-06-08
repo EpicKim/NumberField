@@ -12,13 +12,20 @@ protocol NumberKeyboardDelegate: class {
     func numberTapped(number: Int)
     func specialKeyTapped()
     func backspaceTapped()
+    func minusTapped()
+    func increasedTapped()
+    func confirmTapped()
 }
 
 class NumberKeyboard: UIView {
     weak var delegate: NumberKeyboardDelegate?
+    
     @IBOutlet weak var specialKeyButton: UIButton!
     @IBOutlet var numberButtons: [UIButton]!
     @IBOutlet weak var backspaceButton: UIButton!
+    @IBOutlet weak var minusButton: UIButton!
+    @IBOutlet weak var increasedButton: UIButton!
+    @IBOutlet weak var confirmButton: UIButton!
     
     required init?(coder aDecoder: NSCoder) {
         super.init(coder: aDecoder)
@@ -50,4 +57,15 @@ class NumberKeyboard: UIView {
         self.delegate?.backspaceTapped()
     }
     
+    @IBAction func minusTapped(_ sender: UIButton) {
+        self.delegate?.minusTapped()
+    }
+    
+    @IBAction func increaseTapped(_ sender: UIButton) {
+        self.delegate?.increasedTapped()
+    }
+    
+    @IBAction func confirmTapped(_ sender: UIButton) {
+        self.delegate?.confirmTapped()
+    }
 }

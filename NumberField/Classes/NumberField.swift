@@ -224,6 +224,20 @@ import UIKit
 }
 
 extension NumberField: NumberKeyboardDelegate {
+    func confirmTapped() {
+        
+    }
+    
+    func minusTapped() {
+        value = value - 1
+        text = String(format: "%.f", value)
+    }
+    
+    func increasedTapped() {
+        value = value + 1
+        text = String(format: "%.f", value)
+    }
+    
     
     func numberTapped(number: Int) {
         overwriteTextIfNeeded()

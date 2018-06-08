@@ -89,7 +89,7 @@ class ViewController: UIViewController {
         //Customization
         numberField3.value = 0
         numberField3.maxValue = 99999.99
-        numberField3.decimalPlace = 2
+        numberField3.decimalPlace = 0
         numberField3.valueLabel.font = UIFont.systemFont(ofSize: 20)
         
         //Prefix and Suffix
