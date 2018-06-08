@@ -1,27 +1,29 @@
 {
   "name": "NumberField",
-  "version": "0.1.0",
-  "summary": "A short description of NumberField.",
-  "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/kenthth@gmail.com/NumberField",
+  "version": "0.4.0",
+  "summary": "Numeric field with Numpad keyboard on both iPhone and iPad",
+  "description": "Numeric field with Numpad keyboard on both iPhone and iPad.",
+  "homepage": "https://github.com/KennethTsang/NumberField",
+  "screenshots": "https://raw.githubusercontent.com/KennethTsang/NumberField/master/DEMO.gif",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
   },
   "authors": {
-    "kenthth@gmail.com": "kenneth.tsang@hcg.com.hk"
+    "Kenneth Tsang": "kenneth.tsang@me.com"
   },
   "source": {
-    "git": "https://github.com/kenthth@gmail.com/NumberField.git",
-    "tag": "0.1.0"
+    "git": "https://github.com/KennethTsang/NumberField.git",
+    "tag": "0.4.0"
   },
   "platforms": {
     "ios": "9.0"
   },
-  "source_files": "NumberField/Classes/**/*",
+  "source_files": "Classes/**/*",
+  "resources": "*.xcassets",
   "resource_bundles": {
     "NumberField": [
-      "NumberField/Classes/*.xib"
+      "Classes/*.xib"
     ]
   }
 }

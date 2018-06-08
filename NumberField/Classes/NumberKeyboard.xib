@@ -191,13 +191,12 @@
                     </subviews>
                 </stackView>
                 <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="1" translatesAutoresizingMaskIntoConstraints="NO" id="fDD-I4-8I0">
-                    <rect key="frame" x="276" y="0.0" width="99" height="667"/>
+                    <rect key="frame" x="276" y="0.0" width="98" height="667"/>
                     <subviews>
-                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wU3-ny-SUo">
-                            <rect key="frame" x="0.0" y="0.0" width="99" height="333"/>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wU3-ny-SUo">
+                            <rect key="frame" x="0.0" y="0.0" width="98" height="333"/>
                             <color key="backgroundColor" red="0.90823972230000005" green="0.92638683320000004" blue="0.93171715740000005" alpha="1" colorSpace="calibratedRGB"/>
-                            <fontDescription key="fontDescription" type="system" pointSize="40"/>
-                            <state key="normal" title="⌫">
+                            <state key="normal" image="input_clear">
                                 <color key="titleColor" red="0.12637259070000001" green="0.12639245390000001" blue="0.1263653636" alpha="1" colorSpace="calibratedRGB"/>
                             </state>
                             <connections>
@@ -205,9 +204,9 @@
                             </connections>
                         </button>
                         <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="K12-51-ruL">
-                            <rect key="frame" x="0.0" y="334" width="99" height="333"/>
+                            <rect key="frame" x="0.0" y="334" width="98" height="333"/>
                             <color key="backgroundColor" red="0.98431372549019602" green="0.26666666666666666" blue="0.24313725490196078" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                            <fontDescription key="fontDescription" type="system" pointSize="40"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="19"/>
                             <state key="normal" title="确认">
                                 <color key="titleColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             </state>
@@ -226,7 +225,7 @@
                 <constraint firstAttribute="bottom" secondItem="fDD-I4-8I0" secondAttribute="bottom" id="cQm-6q-CYb"/>
                 <constraint firstItem="fDD-I4-8I0" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="hF5-qj-ziY"/>
                 <constraint firstItem="0i7-Je-Bhq" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="mtU-D2-tmn"/>
-                <constraint firstAttribute="trailing" secondItem="fDD-I4-8I0" secondAttribute="trailing" id="qtd-Ya-Ic3"/>
+                <constraint firstAttribute="trailing" secondItem="fDD-I4-8I0" secondAttribute="trailing" constant="1" id="qtd-Ya-Ic3"/>
                 <constraint firstAttribute="trailing" secondItem="0i7-Je-Bhq" secondAttribute="trailing" constant="100" id="rO2-2B-oh1"/>
             </constraints>
             <point key="canvasLocation" x="23" y="55"/>
@@ -258,4 +257,7 @@
             <point key="canvasLocation" x="-322" y="396"/>
         </button>
     </objects>
+    <resources>
+        <image name="input_clear" width="22" height="18"/>
+    </resources>
 </document>

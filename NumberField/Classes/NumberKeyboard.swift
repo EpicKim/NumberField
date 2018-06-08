@@ -42,6 +42,12 @@ class NumberKeyboard: UIView {
         let view = bundle.loadNibNamed("NumberKeyboard", owner: self, options: nil)?.first as! UIView
         self.addSubview(view)
         view.frame = self.bounds
+        
+        for nButton in numberButtons {
+            nButton.titleLabel!.font = UIFont.systemFont(ofSize: 19)
+        }
+        minusButton.titleLabel!.font = UIFont.systemFont(ofSize: 19)
+        increasedButton.titleLabel!.font = UIFont.systemFont(ofSize: 19)
     }
     
     // MARK: Actions

@@ -1,16 +1,16 @@
 PODS:
-  - NumberField (0.1.0)
+  - NumberField (0.4.0)
 
 DEPENDENCIES:
-  - NumberField (from `../`)
+  - NumberField (from `../NumberField/`)
 
 EXTERNAL SOURCES:
   NumberField:
-    :path: ../
+    :path: "../NumberField/"
 
 SPEC CHECKSUMS:
-  NumberField: cd95bb01d7632226faac893ead3918ecd40a97fa
+  NumberField: ad5449e3bd734b41183e635151060003d4ae9585
 
-PODFILE CHECKSUM: 41210a980dc6ac97c0f2f0fffde4574f60d10a96
+PODFILE CHECKSUM: 8968a13a2f5533bee033e15204b08f0554d81dc0
 
-COCOAPODS: 1.2.0
+COCOAPODS: 1.5.3

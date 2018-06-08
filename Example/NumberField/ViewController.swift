@@ -104,12 +104,6 @@ class ViewController: UIViewController {
         numberField3.layer.borderWidth = 0.5
         numberField3.layer.borderColor = UIColor.lightGray.cgColor
         numberField3.layer.cornerRadius = 4
-        
-        //Listen to NumberField Events
-        numberField3.addTarget(self, action: #selector(numberFieldEditingDidBegin), for: .editingDidBegin)
-        numberField3.addTarget(self, action: #selector(numberFieldEditingDidEnd), for: .editingDidEnd)
-        numberField3.addTarget(self, action: #selector(numberFieldEditingChanged), for: .editingChanged)
-        numberField3.addTarget(self, action: #selector(numberFieldEditingRejected), for: .editingRejected)
     }
 
     @objc func tapGestureHandler() {
