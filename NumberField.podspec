@@ -30,8 +30,8 @@ Numeric field with Numpad keyboard on both iPhone and iPad.
 
   s.ios.deployment_target = '9.0'
 
-  s.source_files = 'Classes/**/*'
-  s.resource  = "*.xcassets"
+  s.source_files = 'NumberField/Classes/**/*'
+  s.resource  = "NumberField/*.xcassets"
   s.resource_bundles = {
     'NumberField' => ['Classes/*.xib']
   }

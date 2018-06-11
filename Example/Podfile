@@ -1,7 +1,7 @@
 use_frameworks!
 
 target 'NumberField_Example' do
-  pod 'NumberField', :path => '../NumberField/'
+  pod 'NumberField', :path => '../'
 
   target 'NumberField_Tests' do
     inherit! :search_paths

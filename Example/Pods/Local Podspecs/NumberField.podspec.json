@@ -19,8 +19,8 @@
   "platforms": {
     "ios": "9.0"
   },
-  "source_files": "Classes/**/*",
-  "resources": "*.xcassets",
+  "source_files": "NumberField/Classes/**/*",
+  "resources": "NumberField/*.xcassets",
   "resource_bundles": {
     "NumberField": [
       "Classes/*.xib"

@@ -7,23 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		11BB4F9402CC5BE593AAECB029356AD4 /* NumberKeyboard.xib in Sources */ = {isa = PBXBuildFile; fileRef = 854ACBF3B5E9035541D274B1C9146290 /* NumberKeyboard.xib */; };
-		311D1E1B5CFE8C35CB91EE3D585DBF47 /* FakeCursor.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3AA4C3178E4E0CFE6032A38E3C2C328 /* FakeCursor.swift */; };
-		385F0D9FE8B7EC3EE1CEF418C9385F00 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CC8DC03F1141CB525D71599BF175BD53 /* Assets.xcassets */; };
+		0825597D0C39F8A774644CE39275F9D8 /* NumberKeyboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = E20DECB847DF8062953D42DC5E2DAF27 /* NumberKeyboard.swift */; };
 		3B4312263E9C677275D452CA8A0EF26E /* Pods-NumberField_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8437C5F142C5BDB4047904930A3EA390 /* Pods-NumberField_Example-dummy.m */; };
 		3C7E1307C4845785DCC7F6400ED8B0DF /* Pods-NumberField_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 08FAEB98CE6935697E13179B353D13C9 /* Pods-NumberField_Tests-dummy.m */; };
-		78D8F0EE8E57B5E724C8D287B37FC679 /* NumberField-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1076EC0E4B2512BA87B829DF2D4FDF95 /* NumberField-dummy.m */; };
-		86B7D78463762BCE6FC9C06FEC795361 /* NumberField.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 7341F054244D85367A71AEAB0D8D152F /* NumberField.bundle */; };
-		908BCA1A97327EE6ADF48FCC911B07DA /* UIControlEventsExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 834CA3282A6066B877A5C185F868C0D6 /* UIControlEventsExtension.swift */; };
+		69D8C726FA000172F42FF97553CEC8E4 /* NumberKeyboard.xib in Sources */ = {isa = PBXBuildFile; fileRef = 2CC34FF75247E85042A94F05708C1F99 /* NumberKeyboard.xib */; };
+		78D8F0EE8E57B5E724C8D287B37FC679 /* NumberField-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B8D8316035DAC0F45D205FC4E2AFA08 /* NumberField-dummy.m */; };
+		89C694414F1B283AEA49FEB62DCC4319 /* NumberField.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 7341F054244D85367A71AEAB0D8D152F /* NumberField.bundle */; };
 		98533BD30EFC267677221E32CBB67FA7 /* Pods-NumberField_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 96949BE70E9856FD7274C7928E23A8E7 /* Pods-NumberField_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A3568A4E5861CB37501C11AFCD65C29B /* NumberField-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9A18DF2D748F3B56363E1D996B8ED34F /* NumberField-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		AA5612BC07EF96721BACDF41B322B84C /* NumberField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F6A8F8D16E3C370A7CC6896C0CB203B /* NumberField.swift */; };
+		A3568A4E5861CB37501C11AFCD65C29B /* NumberField-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CAC5B9673338F30B69E205F4E6E5F325 /* NumberField-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A5BF15D86887E9BBA79B8909A95C7E1E /* NumberField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30F39748C26EF7567C233BA8DB374F2F /* NumberField.swift */; };
+		B1B15394EB388D9D2A72B2C723D07210 /* FakeCursor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51133B899BC262DB35C23E0B832BB340 /* FakeCursor.swift */; };
 		BB3BD50D517925FA0973D2F279F01DCE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
 		CDE867536C1A9E07E16E1D6015899AE6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
-		D7CC36935A4A1BB7C949987210737BB7 /* NumberKeyboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91DB135A1D4872421EFDDFEEBE53B837 /* NumberKeyboard.swift */; };
 		DCE64C893A63DC7905764D309BE4E1D4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
-		E2A4D726832CCD35ECFF3C1B9144DE97 /* NumberKeyboard.xib in Resources */ = {isa = PBXBuildFile; fileRef = 854ACBF3B5E9035541D274B1C9146290 /* NumberKeyboard.xib */; };
 		F17D71984804D118FE219ED4537BD454 /* Pods-NumberField_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DE0ED866334EE78ACCDEE6DC99C5C532 /* Pods-NumberField_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F4D638E3FFEFE599751D9197A11200AE /* UIControlEventsExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B46DE703C71E38113660F8154159F0D4 /* UIControlEventsExtension.swift */; };
+		F743E95108FA08CAE1A48FA9C05E67F0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E8AE7FE30CD716D32C231301A3942004 /* Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,44 +50,46 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		05A74163D21DBAF09EC527DC8FDE2053 /* ResourceBundle-NumberField-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-NumberField-Info.plist"; sourceTree = "<group>"; };
+		067A8DAC4A7B7C519DE7F9228F984B96 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		08FAEB98CE6935697E13179B353D13C9 /* Pods-NumberField_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-NumberField_Tests-dummy.m"; sourceTree = "<group>"; };
-		0B26B5A7BD9A21CCD625F2021E491BE3 /* NumberField.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = NumberField.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		09468554E1B25102A3780703E8B0A75D /* NumberField.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = NumberField.xcconfig; sourceTree = "<group>"; };
 		10674134D48C1415555176A7DBA8F9C6 /* Pods-NumberField_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-NumberField_Example-resources.sh"; sourceTree = "<group>"; };
-		1076EC0E4B2512BA87B829DF2D4FDF95 /* NumberField-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NumberField-dummy.m"; sourceTree = "<group>"; };
+		1863657977900D3A443FD473113AF128 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		187F834DFCB335C81E3A285BF962D3D2 /* Pods_NumberField_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_NumberField_Tests.framework; path = "Pods-NumberField_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1A2A71218A3B7EABBE5B7CA446677D53 /* NumberField.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = NumberField.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		279FCE8DC053E970C3BB2FC1121C81DC /* NumberField.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = NumberField.framework; path = NumberField.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		28A403D154AA85CE235701A312450858 /* Pods-NumberField_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NumberField_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		2B8D8316035DAC0F45D205FC4E2AFA08 /* NumberField-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NumberField-dummy.m"; sourceTree = "<group>"; };
+		2CC34FF75247E85042A94F05708C1F99 /* NumberKeyboard.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = NumberKeyboard.xib; path = NumberField/Classes/NumberKeyboard.xib; sourceTree = "<group>"; };
+		30F39748C26EF7567C233BA8DB374F2F /* NumberField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NumberField.swift; path = NumberField/Classes/NumberField.swift; sourceTree = "<group>"; };
+		51133B899BC262DB35C23E0B832BB340 /* FakeCursor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FakeCursor.swift; path = NumberField/Classes/FakeCursor.swift; sourceTree = "<group>"; };
 		5A01A9CB88FF8368BF465B7A6B794CF5 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		64902A77E61A3F8657B8AA958C883194 /* Pods-NumberField_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-NumberField_Tests-resources.sh"; sourceTree = "<group>"; };
-		67E27CADB27D17FCA968494DCC7384DC /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6A5311AC765E6610C633767D91B640E5 /* Pods-NumberField_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-NumberField_Tests.modulemap"; sourceTree = "<group>"; };
 		6DF57C2C56FD9FBB6F19BE7400681A50 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		7160194FAB37078187E59EC661A8A5F1 /* NumberField-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NumberField-prefix.pch"; sourceTree = "<group>"; };
+		6E18D7FF7BC38AC85C2A27C7D159D8EA /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		7341F054244D85367A71AEAB0D8D152F /* NumberField.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = NumberField.bundle; path = "NumberField-NumberField.bundle"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7B2D26A70D12E34945C5BFC172132673 /* NumberField.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = NumberField.modulemap; sourceTree = "<group>"; };
 		7CCB06B8168FB0DD61069AA728356EA5 /* Pods-NumberField_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-NumberField_Example-frameworks.sh"; sourceTree = "<group>"; };
-		834CA3282A6066B877A5C185F868C0D6 /* UIControlEventsExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UIControlEventsExtension.swift; path = Classes/UIControlEventsExtension.swift; sourceTree = "<group>"; };
 		8437C5F142C5BDB4047904930A3EA390 /* Pods-NumberField_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-NumberField_Example-dummy.m"; sourceTree = "<group>"; };
-		854ACBF3B5E9035541D274B1C9146290 /* NumberKeyboard.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = NumberKeyboard.xib; path = Classes/NumberKeyboard.xib; sourceTree = "<group>"; };
 		862C60BB5E30FE8315AFF1AFBABE435E /* Pods-NumberField_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NumberField_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		8F6A8F8D16E3C370A7CC6896C0CB203B /* NumberField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NumberField.swift; path = Classes/NumberField.swift; sourceTree = "<group>"; };
-		91DB135A1D4872421EFDDFEEBE53B837 /* NumberKeyboard.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NumberKeyboard.swift; path = Classes/NumberKeyboard.swift; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		96949BE70E9856FD7274C7928E23A8E7 /* Pods-NumberField_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-NumberField_Example-umbrella.h"; sourceTree = "<group>"; };
-		9A18DF2D748F3B56363E1D996B8ED34F /* NumberField-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NumberField-umbrella.h"; sourceTree = "<group>"; };
 		A164CF56A3BED955E3576E35692AD93D /* Pods-NumberField_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-NumberField_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		A3AA4C3178E4E0CFE6032A38E3C2C328 /* FakeCursor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FakeCursor.swift; path = Classes/FakeCursor.swift; sourceTree = "<group>"; };
 		A5D8E7F0AF278BE1FD012FC66CF9CAC5 /* Pods-NumberField_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-NumberField_Tests-frameworks.sh"; sourceTree = "<group>"; };
-		BFF184BFDC8A7C0C79908F732EA01FD1 /* NumberField.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = NumberField.xcconfig; sourceTree = "<group>"; };
+		B46DE703C71E38113660F8154159F0D4 /* UIControlEventsExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UIControlEventsExtension.swift; path = NumberField/Classes/UIControlEventsExtension.swift; sourceTree = "<group>"; };
 		BFF58C81FEA20697E21B8044BE4CF8EE /* Pods-NumberField_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NumberField_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		CC8DC03F1141CB525D71599BF175BD53 /* Assets.xcassets */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		D1E769B091881F692CA34935CE835A4F /* NumberField.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = NumberField.modulemap; sourceTree = "<group>"; };
+		CAC5B9673338F30B69E205F4E6E5F325 /* NumberField-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NumberField-umbrella.h"; sourceTree = "<group>"; };
 		DD692AEFB878ADDAE835F5659AA81B49 /* Pods-NumberField_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NumberField_Example.release.xcconfig"; sourceTree = "<group>"; };
 		DE0ED866334EE78ACCDEE6DC99C5C532 /* Pods-NumberField_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-NumberField_Tests-umbrella.h"; sourceTree = "<group>"; };
 		E19BD8C5009E46C46C7C80D0B59D444E /* Pods-NumberField_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-NumberField_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		E20DECB847DF8062953D42DC5E2DAF27 /* NumberKeyboard.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NumberKeyboard.swift; path = NumberField/Classes/NumberKeyboard.swift; sourceTree = "<group>"; };
 		E566AEBE478FB76BE026373D79C08785 /* Pods_NumberField_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_NumberField_Example.framework; path = "Pods-NumberField_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E8AE7FE30CD716D32C231301A3942004 /* Assets.xcassets */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = NumberField/Assets.xcassets; sourceTree = "<group>"; };
 		E9ADF579A6E117980E094F67B40A5ABB /* Pods-NumberField_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-NumberField_Example.modulemap"; sourceTree = "<group>"; };
-		EBC769FA0AB6C0CB37FCA0B1AC7E728F /* ResourceBundle-NumberField-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-NumberField-Info.plist"; sourceTree = "<group>"; };
+		EECBC09D84CFD8C4F961EE1A85D67656 /* NumberField-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NumberField-prefix.pch"; sourceTree = "<group>"; };
 		EED51DA7F4475F283E58C63C8F6259E4 /* Pods-NumberField_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-NumberField_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		F958DD6C998CD777CF44E6072F133A38 /* Pods-NumberField_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-NumberField_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -128,6 +129,21 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0F8BE79F9968AEA0F450AAB67C006889 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				1863657977900D3A443FD473113AF128 /* Info.plist */,
+				7B2D26A70D12E34945C5BFC172132673 /* NumberField.modulemap */,
+				09468554E1B25102A3780703E8B0A75D /* NumberField.xcconfig */,
+				2B8D8316035DAC0F45D205FC4E2AFA08 /* NumberField-dummy.m */,
+				EECBC09D84CFD8C4F961EE1A85D67656 /* NumberField-prefix.pch */,
+				CAC5B9673338F30B69E205F4E6E5F325 /* NumberField-umbrella.h */,
+				05A74163D21DBAF09EC527DC8FDE2053 /* ResourceBundle-NumberField-Info.plist */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/NumberField";
+			sourceTree = "<group>";
+		};
 		11D1E948F519AFB1E7297A167C9B61CC /* Pods-NumberField_Example */ = {
 			isa = PBXGroup;
 			children = (
@@ -146,28 +162,14 @@
 			path = "Target Support Files/Pods-NumberField_Example";
 			sourceTree = "<group>";
 		};
-		127A1555B7356C993FD0A200C7152F28 /* Development Pods */ = {
+		16E4E136CC77B276C9FDF1153FC64ABE /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				31E60E7568675777B0492B5AE1A613B9 /* NumberField */,
+				067A8DAC4A7B7C519DE7F9228F984B96 /* LICENSE */,
+				1A2A71218A3B7EABBE5B7CA446677D53 /* NumberField.podspec */,
+				6E18D7FF7BC38AC85C2A27C7D159D8EA /* README.md */,
 			);
-			name = "Development Pods";
-			sourceTree = "<group>";
-		};
-		31E60E7568675777B0492B5AE1A613B9 /* NumberField */ = {
-			isa = PBXGroup;
-			children = (
-				A3AA4C3178E4E0CFE6032A38E3C2C328 /* FakeCursor.swift */,
-				8F6A8F8D16E3C370A7CC6896C0CB203B /* NumberField.swift */,
-				91DB135A1D4872421EFDDFEEBE53B837 /* NumberKeyboard.swift */,
-				854ACBF3B5E9035541D274B1C9146290 /* NumberKeyboard.xib */,
-				834CA3282A6066B877A5C185F868C0D6 /* UIControlEventsExtension.swift */,
-				7F1288C4D9EE0A7D2156DE98A97D35EE /* Pod */,
-				E6168E2F4DE4A38A6042D8921429B60F /* Resources */,
-				6647D72578794B8D7910E1A9319474C3 /* Support Files */,
-			);
-			name = NumberField;
-			path = ../../NumberField;
+			name = Pod;
 			sourceTree = "<group>";
 		};
 		5A229198368427D2CE48F93D0120A231 /* Targets Support Files */ = {
@@ -187,19 +189,12 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		6647D72578794B8D7910E1A9319474C3 /* Support Files */ = {
+		60F762C2A9D6A16055B798EFAD20659F /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				67E27CADB27D17FCA968494DCC7384DC /* Info.plist */,
-				D1E769B091881F692CA34935CE835A4F /* NumberField.modulemap */,
-				BFF184BFDC8A7C0C79908F732EA01FD1 /* NumberField.xcconfig */,
-				1076EC0E4B2512BA87B829DF2D4FDF95 /* NumberField-dummy.m */,
-				7160194FAB37078187E59EC661A8A5F1 /* NumberField-prefix.pch */,
-				9A18DF2D748F3B56363E1D996B8ED34F /* NumberField-umbrella.h */,
-				EBC769FA0AB6C0CB37FCA0B1AC7E728F /* ResourceBundle-NumberField-Info.plist */,
+				E8AE7FE30CD716D32C231301A3942004 /* Assets.xcassets */,
 			);
-			name = "Support Files";
-			path = "../Example/Pods/Target Support Files/NumberField";
+			name = Resources;
 			sourceTree = "<group>";
 		};
 		665711E273C186962D1CAADD4A5BEA01 /* Products */ = {
@@ -213,23 +208,31 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		69D7DB69AE3C66246D2A19AA4C2B4AC7 /* NumberField */ = {
+			isa = PBXGroup;
+			children = (
+				51133B899BC262DB35C23E0B832BB340 /* FakeCursor.swift */,
+				30F39748C26EF7567C233BA8DB374F2F /* NumberField.swift */,
+				E20DECB847DF8062953D42DC5E2DAF27 /* NumberKeyboard.swift */,
+				2CC34FF75247E85042A94F05708C1F99 /* NumberKeyboard.xib */,
+				B46DE703C71E38113660F8154159F0D4 /* UIControlEventsExtension.swift */,
+				16E4E136CC77B276C9FDF1153FC64ABE /* Pod */,
+				60F762C2A9D6A16055B798EFAD20659F /* Resources */,
+				0F8BE79F9968AEA0F450AAB67C006889 /* Support Files */,
+			);
+			name = NumberField;
+			path = ../..;
+			sourceTree = "<group>";
+		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				127A1555B7356C993FD0A200C7152F28 /* Development Pods */,
+				E38FEC010CB62ECA9109566EF5F4BFC0 /* Development Pods */,
 				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
 				665711E273C186962D1CAADD4A5BEA01 /* Products */,
 				5A229198368427D2CE48F93D0120A231 /* Targets Support Files */,
 			);
-			sourceTree = "<group>";
-		};
-		7F1288C4D9EE0A7D2156DE98A97D35EE /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				0B26B5A7BD9A21CCD625F2021E491BE3 /* NumberField.podspec */,
-			);
-			name = Pod;
 			sourceTree = "<group>";
 		};
 		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
@@ -258,12 +261,12 @@
 			path = "Target Support Files/Pods-NumberField_Tests";
 			sourceTree = "<group>";
 		};
-		E6168E2F4DE4A38A6042D8921429B60F /* Resources */ = {
+		E38FEC010CB62ECA9109566EF5F4BFC0 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				CC8DC03F1141CB525D71599BF175BD53 /* Assets.xcassets */,
+				69D7DB69AE3C66246D2A19AA4C2B4AC7 /* NumberField */,
 			);
-			name = Resources;
+			name = "Development Pods";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -338,7 +341,7 @@
 			buildPhases = (
 				C03F470547C2504167FBD8EA0017D969 /* Sources */,
 				C5DC77844571A7EDE6DE04D70B655D73 /* Frameworks */,
-				09DF491541838DC9871020F9DAB45493 /* Resources */,
+				E8112624B4634E5377362399D26C0885 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -355,7 +358,7 @@
 			buildPhases = (
 				D26152714E54BEDCDDA6B20B98FB316B /* Sources */,
 				A935D0D6D1350CC920C8DAE76F4A5503 /* Frameworks */,
-				6D07B63E87DCDC417722EDDAF75753F1 /* Resources */,
+				CD14BDA92DE464A3FAFF2A5730C294AB /* Resources */,
 				6C30DC03792DA1C3AE79166BE7540994 /* Headers */,
 			);
 			buildRules = (
@@ -398,20 +401,19 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		09DF491541838DC9871020F9DAB45493 /* Resources */ = {
+		CD14BDA92DE464A3FAFF2A5730C294AB /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E2A4D726832CCD35ECFF3C1B9144DE97 /* NumberKeyboard.xib in Resources */,
+				F743E95108FA08CAE1A48FA9C05E67F0 /* Assets.xcassets in Resources */,
+				89C694414F1B283AEA49FEB62DCC4319 /* NumberField.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		6D07B63E87DCDC417722EDDAF75753F1 /* Resources */ = {
+		E8112624B4634E5377362399D26C0885 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				385F0D9FE8B7EC3EE1CEF418C9385F00 /* Assets.xcassets in Resources */,
-				86B7D78463762BCE6FC9C06FEC795361 /* NumberField.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -445,12 +447,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				311D1E1B5CFE8C35CB91EE3D585DBF47 /* FakeCursor.swift in Sources */,
+				B1B15394EB388D9D2A72B2C723D07210 /* FakeCursor.swift in Sources */,
 				78D8F0EE8E57B5E724C8D287B37FC679 /* NumberField-dummy.m in Sources */,
-				AA5612BC07EF96721BACDF41B322B84C /* NumberField.swift in Sources */,
-				D7CC36935A4A1BB7C949987210737BB7 /* NumberKeyboard.swift in Sources */,
-				11BB4F9402CC5BE593AAECB029356AD4 /* NumberKeyboard.xib in Sources */,
-				908BCA1A97327EE6ADF48FCC911B07DA /* UIControlEventsExtension.swift in Sources */,
+				A5BF15D86887E9BBA79B8909A95C7E1E /* NumberField.swift in Sources */,
+				0825597D0C39F8A774644CE39275F9D8 /* NumberKeyboard.swift in Sources */,
+				69D8C726FA000172F42FF97553CEC8E4 /* NumberKeyboard.xib in Sources */,
+				F4D638E3FFEFE599751D9197A11200AE /* UIControlEventsExtension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -480,7 +482,7 @@
 /* Begin XCBuildConfiguration section */
 		0792D4E0F94EA6C2A83A0733A2546710 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = BFF184BFDC8A7C0C79908F732EA01FD1 /* NumberField.xcconfig */;
+			baseConfigurationReference = 09468554E1B25102A3780703E8B0A75D /* NumberField.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/NumberField";
@@ -559,7 +561,7 @@
 		};
 		5137F299A0CB2B871ECF28AC1047450D /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = BFF184BFDC8A7C0C79908F732EA01FD1 /* NumberField.xcconfig */;
+			baseConfigurationReference = 09468554E1B25102A3780703E8B0A75D /* NumberField.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -624,7 +626,7 @@
 		};
 		A3ED8D33D095093DBEDCB9526F0BE422 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = BFF184BFDC8A7C0C79908F732EA01FD1 /* NumberField.xcconfig */;
+			baseConfigurationReference = 09468554E1B25102A3780703E8B0A75D /* NumberField.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/NumberField";
@@ -710,7 +712,7 @@
 		};
 		E165B3D764326E25E20852048CECB8AC /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = BFF184BFDC8A7C0C79908F732EA01FD1 /* NumberField.xcconfig */;
+			baseConfigurationReference = 09468554E1B25102A3780703E8B0A75D /* NumberField.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
