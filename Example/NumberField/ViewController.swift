@@ -89,18 +89,8 @@ class ViewController: UIViewController {
         //Customization
         numberField3.value = 0
         numberField3.maxValue = 99999.99
-        numberField3.decimalPlace = 0
-        numberField3.valueLabel.font = UIFont.systemFont(ofSize: 20)
+        numberField3.minValue = 1
         
-        //Prefix and Suffix
-        numberField3.prefixLabel.text = "HKD"
-        numberField3.textAlignment = .right
-        numberField3.prefixLabel.font = UIFont.boldSystemFont(ofSize: 16)
-        numberField3.suffixLabel.font = UIFont.boldSystemFont(ofSize: 16)
-        numberField3.prefixLabel.textColor = UIColor.gray
-        numberField3.suffixLabel.textColor = UIColor.gray
-        
-        //Add Border
         numberField3.layer.borderWidth = 0.5
         numberField3.layer.borderColor = UIColor.lightGray.cgColor
         numberField3.layer.cornerRadius = 4

@@ -36,6 +36,8 @@ import UIKit
     
     @IBInspectable public var maxValue: Double = Double(0)
     
+    @IBInspectable public var minValue: Double = Double(0)
+    
     @IBInspectable public var value: Double = Double(0) {
         didSet {
             if isFirstResponder {
@@ -229,6 +231,11 @@ extension NumberField: NumberKeyboardDelegate {
     }
     
     func minusTapped() {
+        let newValue = value - 1
+        if newValue < minValue {
+            sendActions(for: [.editingRejected])
+            return
+        }
         value = value - 1
         text = String(format: "%.f", value)
     }
@@ -283,6 +290,12 @@ extension NumberField: NumberKeyboardDelegate {
     func backspaceTapped() {
         overwriteTextIfNeeded()
         text = String(text.dropLast())
-        value = Double(text) ?? 0
+        if text == "" {
+            text = String(format: "%.f", minValue)
+            value = minValue
+        }
+        else {
+            value = Double(text) ?? 0
+        }
     }
 }
