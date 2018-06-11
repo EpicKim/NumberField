@@ -39,6 +39,8 @@ import UIKit
     
     @IBInspectable public var minValue: Double = Double(0)
     
+    @IBInspectable public var placeholder: String = ""
+    
     @IBInspectable public var value: Double = Double(0) {
         didSet {
             if isFirstResponder {
@@ -57,9 +59,22 @@ import UIKit
     
     //MARK: Private Varibles
     private var timer: Timer?
+    
+    fileprivate var isShowPlaceholder = false
     fileprivate var text: String {
         get { return valueLabel.text ?? "" }
-        set { valueLabel.text = newValue }
+        set {
+            valueLabel.text = newValue
+            if newValue == "" {
+                valueLabel.textColor = .gray
+                valueLabel.text = placeholder
+                isShowPlaceholder = true
+            }
+            else {
+                valueLabel.textColor = .black
+                isShowPlaceholder = false
+            }
+        }
     }
     
     
@@ -254,7 +269,7 @@ extension NumberField: NumberKeyboardDelegate {
         var newText = String(number)
         
         // If origin value is not 0, or contains a ".", append the pressed number after original text
-        if value > 0 || text.contains(".") {
+        if (value > 0 || text.contains(".")) && !isShowPlaceholder {
             newText = text.appending(newText)
         }
         
@@ -290,10 +305,14 @@ extension NumberField: NumberKeyboardDelegate {
     }
     
     func backspaceTapped() {
+        if isShowPlaceholder {
+            return
+        }
         overwriteTextIfNeeded()
-        text = String(text.dropLast())
+        if text != placeholder {
+            text = String(text.dropLast())
+        }
         if text == "" {
-            text = String(format: "%.f", minValue)
             value = minValue
         }
         else {
