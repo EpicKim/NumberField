@@ -86,7 +86,11 @@ class ViewController: UIViewController {
     }
 
     func setupField3() {
+        self.view.backgroundColor = .gray
         //Customization
+        numberField3.textAlignment = .center
+        numberField3.isPrefixAndSuffixStickToSides = true
+        numberField3.backgroundColor = .white
         numberField3.value = 0
         numberField3.maxValue = 99999.99
         numberField3.minValue = 1

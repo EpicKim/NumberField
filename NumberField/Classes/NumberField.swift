@@ -11,6 +11,7 @@ import UIKit
 @objc public enum NumberFieldAlignment: Int {
     case left
     case right
+    case center
 }
 
 @objc open class NumberField: UIControl {
@@ -100,7 +101,7 @@ import UIKit
         stackView = UIStackView(arrangedSubviews: [prefixLabel, valueLabel, suffixLabel])
         stackView.alignment = .center
         stackView.axis = .horizontal
-        stackView.distribution = .fill
+        stackView.distribution = textAlignment == .center ? .equalCentering:.fill
         stackView.spacing = 4
 
         addSubview(stackView)
@@ -118,7 +119,8 @@ import UIKit
         if textAlignment == .left {
             prefixLabel.setContentHuggingPriority(UILayoutPriority.required, for: .horizontal)
             suffixLabel.setContentHuggingPriority(UILayoutPriority.defaultLow, for: .horizontal)
-        } else {
+        }
+        else {
             prefixLabel.setContentHuggingPriority(UILayoutPriority.defaultLow, for: .horizontal)
             suffixLabel.setContentHuggingPriority(UILayoutPriority.required, for: .horizontal)
         }
