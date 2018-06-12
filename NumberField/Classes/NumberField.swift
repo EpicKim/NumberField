@@ -290,6 +290,8 @@ extension NumberField: NumberKeyboardDelegate {
         // Prevent exceeding maxValue
         if let newValue = Double(newText) {
             if maxValue > 0 && newValue > maxValue {
+                value = maxValue
+                text = String(format: "%.f", value)
                 sendActions(for: [.editingRejected])
                 return
             }

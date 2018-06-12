@@ -93,7 +93,7 @@ class ViewController: UIViewController {
         numberField3.isPrefixAndSuffixStickToSides = true
         numberField3.backgroundColor = .white
         numberField3.value = 3
-        numberField3.maxValue = 99999.99
+        numberField3.maxValue = 50
         numberField3.minValue = 3
         
         numberField3.layer.borderWidth = 0.5
