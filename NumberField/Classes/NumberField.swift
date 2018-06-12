@@ -61,7 +61,7 @@ import UIKit
     private var timer: Timer?
     
     fileprivate var isShowPlaceholder = false
-    fileprivate var text: String {
+    var text: String {
         get { return valueLabel.text ?? "" }
         set {
             valueLabel.text = newValue
