@@ -61,7 +61,7 @@ import UIKit
     private var timer: Timer?
     
     fileprivate var isShowPlaceholder = false
-    var text: String {
+    public var text: String {
         get { return valueLabel.text ?? "" }
         set {
             valueLabel.text = newValue
@@ -92,6 +92,11 @@ import UIKit
     required public init?(coder aDecoder: NSCoder) {
         super.init(coder: aDecoder)
         commonInit()
+    }
+    
+    public func setText(_ str:String) {
+        self.text = str
+        value = Double(str) ?? 0
     }
     
     private func commonInit() {
@@ -229,7 +234,7 @@ import UIKit
     override open func resignFirstResponder() -> Bool {
         if super.resignFirstResponder() {
             shouldOverwriteText = false
-            formatValue()
+//            formatValue()
             sendActions(for: [.editingDidEnd])
             return true
         } else {
@@ -309,7 +314,7 @@ extension NumberField: NumberKeyboardDelegate {
             return
         }
         overwriteTextIfNeeded()
-        if text != placeholder {
+        if valueLabel.textColor != .gray {
             text = String(text.dropLast())
         }
         if text == "" {
