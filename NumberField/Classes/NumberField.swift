@@ -39,7 +39,13 @@ import UIKit
     
     @IBInspectable public var minValue: Double = Double(0)
     
-    @IBInspectable public var placeholder: String = ""
+    @IBInspectable public var placeholder: String = "" {
+        didSet {
+            if text == "" {
+                text = ""
+            }
+        }
+    }
     
     @IBInspectable public var value: Double = Double(0) {
         didSet {
