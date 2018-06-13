@@ -95,8 +95,8 @@ import UIKit
     }
     
     public func setText(_ str:String) {
-        self.text = str
         value = Double(str) ?? 0
+        self.text = str
     }
     
     private func commonInit() {
