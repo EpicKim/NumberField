@@ -240,7 +240,6 @@ import UIKit
     override open func resignFirstResponder() -> Bool {
         if super.resignFirstResponder() {
             shouldOverwriteText = false
-//            formatValue()
             sendActions(for: [.editingDidEnd])
             return true
         } else {
@@ -255,7 +254,7 @@ import UIKit
 
 extension NumberField: NumberKeyboardDelegate {
     func confirmTapped() {
-        
+        _ = resignFirstResponder()
     }
     
     func minusTapped() {
